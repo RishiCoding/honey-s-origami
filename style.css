@@ -1,0 +1,19 @@
+h1{
+    color:blueviolet
+}
+h2{
+    color:red
+}
+
+.header{
+   background-color: aqua; 
+   display: flex;
+   justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+
