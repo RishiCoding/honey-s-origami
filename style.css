@@ -6,7 +6,7 @@ h2{
 }
 
 .header{
-   background-color: aqua; 
+   background-color: #0fffff; 
    display: flex;
    justify-content: space-between;
 }
@@ -15,5 +15,10 @@ h2{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    background-color: #f7a9f7;
+ }
+
+ .origami{
+     background-color: #008cff;
  }
 
