@@ -5,10 +5,18 @@ h2{
     color:red
 }
 
+a:link{
+    color:green;
+}
+a:visited {
+    color: orange;
+}
+
 .header{
    background-color: #0fffff; 
    display: flex;
    justify-content: space-between;
+   padding-left: 30px;
 }
 
 .grid{
@@ -20,5 +28,20 @@ h2{
 
  .origami{
      background-color: #008cff;
+     padding-top: 30px;
+     position: relative;
  }
 
+ .origami:hover img{
+    opacity:0.5;
+}
+.origami p{
+    position:absolute ;
+    top :50%; 
+    left: 50%;
+    transform :translate(-50%,-50%);
+    opacity :0 ;
+}
+.origami:hover p{
+    opacity :1;
+}
